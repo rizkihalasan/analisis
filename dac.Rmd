@@ -1,0 +1,39 @@
+
+
+```{r}
+bigmart_train <- read.csv('Data_Train.csv', sep = ';')
+str(bigmart_train)
+names(bigmart_train)
+summary(bigmart_train)
+bigmart_train
+
+```
+## (SOAL 1) sales characteristics 
+```{r}
+table(bigmart_train$Product_Type)
+table(bigmart_train$Outlet_ID)
+by(bigmart_train$Product_Type, bigmart_train$Outlet_ID, summary)
+sorted_data = bigmart_train[order(bigmart_train[,12], bigmart_train[,7]),]
+summary(bigmart_train$Outlet_ID)
+sorted_data_1 = split(sorted_data, sorted_data$Outlet_ID)
+out013 = sorted_data_1$OUT013
+out018 = sorted_data_1$OUT018
+out035 = sorted_data_1$OUT035
+out046 = sorted_data_1$OUT046
+out049 = sorted_data_1$OUT049
+
+aggregate(out013$Product_Outlet_Sales, by=list(Category=out013$Product_Type), FUN = sum)
+aggregate(out018$Product_Outlet_Sales, by=list(Category=out018$Product_Type), FUN = sum)
+aggregate(out035$Product_Outlet_Sales, by=list(Category=out035$Product_Type), FUN = sum)
+aggregate(out046$Product_Outlet_Sales, by=list(Category=out046$Product_Type), FUN = sum)
+aggregate(out049$Product_Outlet_Sales, by=list(Category=out049$Product_Type), FUN = sum)
+
+```
+
+## (SOAL 2) Percentage of total display area by each store for each product type
+```{r}
+aggregate(out013$)
+
+```
+
+
