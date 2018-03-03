@@ -1,5 +1,3 @@
-
-
 ```{r}
 bigmart_train <- read.csv('Data_Train.csv', sep = ';')
 str(bigmart_train)
@@ -43,11 +41,22 @@ aggregate(out049$Product_Visibility, by=list(Category=out049$Product_Type), FUN=
 ## (SOAL 3) Relationship between the percentages
 ```{r}
 library(ggplot2)
+productSeafood = bigmart_train$Product_Type == "Seafood"
+seafoodSelected = bigmart_train[productSeafood, c("Product_Visibility", "Product_Outlet_Sales")]
+seafoodSelected
+
+lm(seafoodSelected$Product_Visibility ~ seafoodSelected$Product_Outlet_Sales)
+
+ggplot(seafoodSelected, aes(x =Product_Visibility, y = Product_Outlet_Sales))+
+  geom_point()+
+  geom_smooth(method = 'lm', formula = y~x)
+
+
+summary(bigmart_train$Product_Visibility)
 ggplot(bigmart_train, aes(x=Product_Visibility, y=Product_Outlet_Sales))+
   geom_point()+
   facet_wrap(~Product_Type)+
   geom_smooth(method = 'lm', formula = y~x)
-summary(bigmart_train$Product_Type)
 list_type = unique(bigmart_train[c("Product_Type")])$Product_Type
 list_type
 #tes <- subset(bigmart_train ,Product_Type == list_type[])
@@ -64,4 +73,25 @@ for(i in 1:16){
 
 ```
 
+
+## (SOAL 5) Characteristics of Low Fat and Regular product sales for each store.
+```{r}
+regularSales = bigmart_train[bigmart_train$Product_Fat_Content == "Regular",c("Outlet_ID", "Product_Outlet_Sales", "Product_Fat_Content")]
+
+bigmart_train
+
+lowFatSales= bigmart_train[bigmart_train$Product_Fat_Content == "Low Fat",c("Outlet_ID", "Product_Outlet_Sales", "Product_Type")]
+
+regularSales
+
+aggregate(Product_Outlet_Sales ~ Outlet_ID, regularSales, mean)
+aggregate(Product_Outlet_Sales ~ Outlet_ID, lowFatSales, mean)
+
+ggplot(regularSales, aes(x = Outlet_ID, y = Product_Outlet_Sales))+
+  geom_col(width = 0.5)
+
+ggplot(lowFatSales, aes(x = Outlet_ID, y=Product_Outlet_Sales))+
+  geom_col(width = 0.5)
+
+```
 
