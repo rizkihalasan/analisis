@@ -45,7 +45,8 @@ aggregate(out049$Product_Visibility, by=list(Category=out049$Product_Type), FUN=
 library(ggplot2)
 ggplot(bigmart_train, aes(x=Product_Visibility, y=Product_Outlet_Sales))+
   geom_point()+
-  facet_wrap(~Product_Type)
+  facet_wrap(~Product_Type)+
+  geom_smooth(method = 'lm', formula = y~x)
 summary(bigmart_train$Product_Type)
 list_type = unique(bigmart_train[c("Product_Type")])$Product_Type
 list_type
@@ -53,7 +54,7 @@ list_type
 #tes
 for(i in 1:16){
   tes <- subset(bigmart_train ,Product_Type == list_type[i])
-    print(cor(tes$Product_Visibility, tes$Product_Outlet_Sales, method="kendall"))
+  print(cor(tes$Product_Visibility, tes$Product_Outlet_Sales, method="kendall"))
   print(list_type[i])
 }
 ```
