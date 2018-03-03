@@ -6,6 +6,7 @@ str(bigmart_train)
 names(bigmart_train)
 summary(bigmart_train)
 bigmart_train
+duplicated(bigmart_train$Product_ID)
 
 ```
 ## (SOAL 1) sales characteristics 
@@ -32,7 +33,33 @@ aggregate(out049$Product_Outlet_Sales, by=list(Category=out049$Product_Type), FU
 
 ## (SOAL 2) Percentage of total display area by each store for each product type
 ```{r}
-aggregate(out013$)
+aggregate(out013$Product_Visibility, by=list(Category=out013$Product_Type), FUN=sum)
+aggregate(out018$Product_Visibility, by=list(Category=out018$Product_Type), FUN=sum)
+aggregate(out035$Product_Visibility, by=list(Category=out035$Product_Type), FUN=sum)
+aggregate(out046$Product_Visibility, by=list(Category=out046$Product_Type), FUN=sum)
+aggregate(out049$Product_Visibility, by=list(Category=out049$Product_Type), FUN=sum)
+```
+
+## (SOAL 3) Relationship between the percentages
+```{r}
+library(ggplot2)
+ggplot(bigmart_train, aes(x=Product_Visibility, y=Product_Outlet_Sales))+
+  geom_point()+
+  facet_wrap(~Product_Type)
+summary(bigmart_train$Product_Type)
+list_type = unique(bigmart_train[c("Product_Type")])$Product_Type
+list_type
+#tes <- subset(bigmart_train ,Product_Type == list_type[])
+#tes
+for(i in 1:16){
+  tes <- subset(bigmart_train ,Product_Type == list_type[i])
+    print(cor(tes$Product_Visibility, tes$Product_Outlet_Sales, method="kendall"))
+  print(list_type[i])
+}
+```
+
+## (SOAL 4) Mean of sales outcome for each store age category
+```{r}
 
 ```
 
