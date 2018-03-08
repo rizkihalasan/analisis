@@ -197,9 +197,44 @@ hist(bigmart_train$Product_Outlet_Sales)
 summary(bigmart_train$Product_Outlet_Sales)
 
 
+length(bigmart_train)
+
+bigmart_train$Product_Outlet_Sales
+
+bigmart_train$Product_Outlet_Sales <- predictResult
+
+bigmart_train$Product_Outlet_Sales
+
+predictResult
 
 error = predictResult - bigmart_train$Product_Outlet_Sales
 sqrt(mean(error*error))
 ```
 
+
+```{r}
+
+cor (bigmart_train$Product_Outlet_Sales, sqrt(bigmart_train$Product_Visibility))
+cor(sqrt(bigmart_train$Product_Outlet_Sales), as.numeric(bigmart_train$Outlet_Location_Type))
+cor(bigmart_train$Product_Outlet_Sales, bigmart_train$Product_MRP)
+cor (bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Product_ID))
+cor(bigmart_train$Product_Outlet_Sales, bigmart_train$Product_Weight)
+cor(bigmart_train$Product_Outlet_Sales,as.numeric(bigmart_train$Product_Fat_Content))
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Outlet_ID))
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Product_Type))
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Outlet_Establishment))
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Outlet_Size))
+
+
+bigmart_test <- read.csv('Data_Test.csv', sep = ',')
+bigmart_test
+predictResult = predict(no7model, newdata = bigmart_test)
+bigmart_test$Product_Outlet_Sales <- predictResult
+bigmart_test
+
+write.csv(bigmart_test, file="A010122_DzarBelaHanifa_RizkiHalasan_InstitutTeknologiBandung.csv")
+
+
+
+```
 

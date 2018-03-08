@@ -1,0 +1,219 @@
+"","Product_ID","Outlet_Location_Type","Outlet_Type","Product_Weight","Product_Fat_Content","Product_Visibility","Product_Type","Product_MRP","Outlet_Establishment_Year","Outlet_Size","Outlet_ID","Product_Outlet_Sales"
+"1","FDN21","Tier 1","Supermarket Type1",18.6,"Low Fat",0.076855628,"Snack Foods",161.0236,1997,"Small","OUT046",2590.20258190264
+"2","NCK31","Tier 3","Supermarket Type2",10.895,"Low Fat",0.027157955,"Others",50.2666,2009,"Medium","OUT018",773.043139364709
+"3","FDF12","Tier 3","Supermarket Type1",8.235,"Low Fat",0.08235926,"Baking Goods",147.6076,1987,"High","OUT013",2370.08998332116
+"4","FDY14","Tier 1","Supermarket Type1",10.3,"Low Fat",0.070040195,"Dairy",263.0226,1997,"Small","OUT046",4263.67194256992
+"5","FDY46","Tier 1","Supermarket Type1",18.6,"Low Fat",0.047964395,"Snack Foods",185.0898,1999,"Medium","OUT049",2985.05006401218
+"6","DRD37","Tier 1","Supermarket Type1",9.8,"Low Fat",0.013863257,"Soft Drinks",45.106,1999,"Medium","OUT049",688.374603568677
+"7","FDE16","Tier 3","Supermarket Type2",8.895,"Low Fat",0.026451028,"Frozen Foods",210.3954,2009,"Medium","OUT018",3400.23203886783
+"8","FDL22","Tier 1","Supermarket Type1",16.85,"Low Fat",0.036446751,"Snack Foods",90.3488,1999,"Medium","OUT049",1430.66070040098
+"9","FDO58","Tier 3","Supermarket Type2",19.6,"Low Fat",0.039738393,"Snack Foods",163.7526,2009,"Medium","OUT018",2634.97652954194
+"10","FDI35","Tier 1","Supermarket Type1",14,"Low Fat",0.041291169,"Starchy Foods",180.7634,1997,"Small","OUT046",2914.06801671768
+"11","FDK55","Tier 3","Supermarket Type2",18.5,"Low Fat",0.02586664,"Meat",88.9172,2009,"Medium","OUT018",1407.17283545395
+"12","NCV30","Tier 1","Supermarket Type1",20.2,"Low Fat",0.065932087,"Household",64.851,1997,"Small","OUT046",1012.32535334441
+"13","DRJ47","Tier 3","Supermarket Type2",18.25,"Low Fat",0.044430561,"Hard Drinks",174.208,2009,"Medium","OUT018",2806.51538338875
+"14","FDX59","Tier 1","Supermarket Type1",10.195,"Low Fat",0.051661272,"Breads",33.3558,1997,"Small","OUT046",495.592324509934
+"15","FDZ31","Tier 1","Supermarket Type1",15.35,"Regular",0.113217223,"Fruits and Vegetables",191.1504,1997,"Small","OUT046",3084.48465069695
+"16","FDP48","Tier 1","Supermarket Type1",7.52,"Regular",0.044091657,"Baking Goods",182.995,1999,"Medium","OUT049",2950.68126023247
+"17","FDT31","Tier 1","Supermarket Type1",19.75,"Low Fat",0.012467648,"Fruits and Vegetables",188.1872,1999,"Medium","OUT049",3035.86824848193
+"18","FDN01","Tier 1","Supermarket Type1",8.895,"Low Fat",0.072511335,"Breakfast",177.437,1999,"Medium","OUT049",2859.4926926329
+"19","FDG10","Tier 3","Supermarket Type2",6.63,"Regular",0.01098386,"Snack Foods",55.4588,2009,"Medium","OUT018",858.230127614169
+"20","FDN57","Tier 3","Supermarket Type2",18.25,"Low Fat",0.054455125,"Snack Foods",142.0154,2009,"Medium","OUT018",2278.34030578781
+"21","FDX16","Tier 2","Supermarket Type1",17.85,"Low Fat",0.065797601,"Frozen Foods",147.805,2004,"Small","OUT035",2373.32867048275
+"22","NCH55","Tier 3","Supermarket Type2",16.35,"Low Fat",0.034813556,"Household",128.402,2009,"Medium","OUT018",2054.98902004474
+"23","NCY06","Tier 1","Supermarket Type1",15.25,"Low Fat",0.061184804,"Household",132.0968,1997,"Small","OUT046",2115.60858095998
+"24","DRD37","Tier 3","Supermarket Type2",9.8,"Low Fat",0.013898123,"Soft Drinks",46.506,2009,"Medium","OUT018",711.344016062272
+"25","FDV32","Tier 3","Supermarket Type2",7.785,"Low Fat",0.089069748,"Fruits and Vegetables",62.751,2009,"Medium","OUT018",977.871234604022
+"26","DRK37","Tier 1","Supermarket Type1",5,"Low Fat",0.044004675,"Soft Drinks",188.853,1997,"Small","OUT046",3046.79184479496
+"27","FDW20","Tier 3","Supermarket Type1",20.75,"Low Fat",0.024129332,"Fruits and Vegetables",124.173,1987,"High","OUT013",1985.60498759087
+"28","FDZ09","Tier 3","Supermarket Type1",17.6,"Low Fat",0.104791689,"Snack Foods",165.2868,1987,"High","OUT013",2660.14772429027
+"29","NCM54","Tier 3","Supermarket Type2",17.7,"Low Fat",0.051146565,"Household",127.3678,2009,"Medium","OUT018",2038.02118690126
+"30","FDX31","Tier 2","Supermarket Type1",20.35,"Regular",0.014822802,"Fruits and Vegetables",234.0958,2004,"Small","OUT035",3789.07794162726
+"31","FDX20","Tier 3","Supermarket Type1",7.365,"Low Fat",0.042524835,"Fruits and Vegetables",228.372,1987,"High","OUT013",3695.16913931952
+"32","FDW50","Tier 2","Supermarket Type1",13.1,"Low Fat",0.075563757,"Dairy",168.1158,2004,"Small","OUT035",2706.56234425055
+"33","FDF58","Tier 1","Supermarket Type1",13.3,"Low Fat",0.009581155,"Snack Foods",64.951,1997,"Small","OUT046",1013.96602566539
+"34","FDW14","Tier 1","Supermarket Type1",8.3,"Regular",0.038211537,"Dairy",87.7198,1997,"Small","OUT046",1387.52742508265
+"35","FDC29","Tier 3","Supermarket Type2",8.39,"Regular",0.024304264,"Frozen Foods",114.0176,2009,"Medium","OUT018",1818.98815070698
+"36","DRF36","Tier 1","Supermarket Type1",16.1,"Low Fat",0.023577298,"Soft Drinks",192.6846,1997,"Small","OUT046",3109.65584544529
+"37","FDD51","Tier 1","Supermarket Type1",11.15,"Low Fat",0.120139206,"Dairy",45.0744,1999,"Medium","OUT049",687.85615111525
+"38","FDY12","Tier 1","Supermarket Type1",9.8,"Regular",0.14061104,"Baking Goods",49.8008,1997,"Small","OUT046",765.400887693626
+"39","NCF31","Tier 1","Supermarket Type1",9.13,"Low Fat",0.051847425,"Household",152.8024,1997,"Small","OUT046",2455.31962905096
+"40","FDW22","Tier 3","Supermarket Type2",9.695,"Regular",0.030413777,"Snack Foods",221.3114,2009,"Medium","OUT018",3579.32782942503
+"41","NCJ31","Tier 1","Supermarket Type1",19.2,"Low Fat",0.18293775,"Others",243.0196,1999,"Medium","OUT049",3935.48825820607
+"42","FDI20","Tier 3","Supermarket Type1",19.1,"Low Fat",0.038531668,"Fruits and Vegetables",210.6586,1987,"High","OUT013",3404.55028841663
+"43","FDS47","Tier 3","Supermarket Type1",16.75,"Low Fat",0.128778474,"Breads",89.1856,1987,"High","OUT013",1411.57639996344
+"44","NCS30","Tier 2","Supermarket Type1",5.945,"Low Fat",0.093008616,"Household",127.8652,2004,"Small","OUT035",2046.18189102577
+"45","DRE48","Tier 2","Supermarket Type1",8.43,"Low Fat",0.017322454,"Soft Drinks",196.8768,2004,"Small","OUT035",3178.43611048504
+"46","FDC08","Tier 1","Supermarket Type1",19,"Regular",0.103449993,"Fruits and Vegetables",225.472,1997,"Small","OUT046",3647.58964201135
+"47","FDQ09","Tier 3","Supermarket Type1",7.235,"Low Fat",0.058083831,"Snack Foods",113.6834,1987,"High","OUT013",1813.50502381029
+"48","DRJ13","Tier 3","Supermarket Type1",12.65,"Low Fat",0.062837968,"Soft Drinks",161.5578,1987,"High","OUT013",2598.96705344126
+"49","FDS27","Tier 1","Supermarket Type1",10.195,"Regular",0.012458143,"Meat",196.311,1997,"Small","OUT046",3169.15318649298
+"50","NCA29","Tier 3","Supermarket Type1",10.5,"Low Fat",0.027253711,"Household",170.9106,1987,"High","OUT013",2752.41585427705
+"51","NCY53","Tier 1","Supermarket Type1",20,"Low Fat",0.05848134,"Health and Hygiene",113.3544,1997,"Small","OUT046",1808.1072118743
+"52","FDI60","Tier 1","Supermarket Type1",7.22,"Regular",0.03832122,"Baking Goods",61.851,1997,"Small","OUT046",963.105183715282
+"53","NCA29","Tier 2","Supermarket Type1",10.5,"Low Fat",0.027271252,"Household",171.6106,2004,"Small","OUT035",2763.90056052384
+"54","FDK56","Tier 3","Supermarket Type1",9.695,"Low Fat",0.129889831,"Fruits and Vegetables",185.3898,1987,"High","OUT013",2989.97208097509
+"55","FDD04","Tier 1","Supermarket Type1",16,"Low Fat",0.090111173,"Dairy",141.3154,1999,"Medium","OUT049",2266.85559954102
+"56","FDK02","Tier 2","Supermarket Type1",12.5,"Low Fat",0.112203445,"Canned",121.144,2004,"Small","OUT035",1935.90902298866
+"57","DRC36","Tier 2","Supermarket Type1",13,"Regular",0.044976367,"Soft Drinks",176.2054,2004,"Small","OUT035",2839.28617232782
+"58","FDD05","Tier 3","Supermarket Type1",19.35,"Low Fat",0.016597651,"Frozen Foods",121.5098,1987,"High","OUT013",1941.91060233877
+"59","NCN26","Tier 2","Supermarket Type1",10.85,"Low Fat",0.028674471,"Household",115.1808,2004,"Small","OUT035",1838.07245114451
+"60","FDE41","Tier 2","Supermarket Type1",9.195,"Regular",0.064002068,"Frozen Foods",85.5566,2004,"Small","OUT035",1352.0364014354
+"61","NCH18","Tier 2","Supermarket Type1",9.3,"Low Fat",0.044652785,"Household",247.0802,2004,"Small","OUT035",4002.10939847142
+"62","FDP51","Tier 3","Supermarket Type2",13.85,"Regular",0.085622362,"Meat",119.4124,2009,"Medium","OUT018",1907.49914107872
+"63","FDX10","Tier 1","Supermarket Type1",6.385,"Regular",0.123710526,"Snack Foods",37.1874,1997,"Small","OUT046",558.456325160261
+"64","FDW09","Tier 1","Supermarket Type1",13.65,"Regular",0.025920816,"Snack Foods",81.2302,1997,"Small","OUT046",1281.05435414091
+"65","NCX18","Tier 3","Supermarket Type2",14.15,"Low Fat",0.008829806,"Household",196.811,2009,"Medium","OUT018",3177.35654809784
+"66","FDD28","Tier 1","Supermarket Type1",10.695,"Low Fat",0.053296868,"Frozen Foods",59.6904,1997,"Small","OUT046",927.656817548381
+"67","FDO32","Tier 3","Supermarket Type1",6.36,"Low Fat",0.120443298,"Fruits and Vegetables",45.406,1987,"High","OUT013",693.29662053159
+"68","FDR58","Tier 3","Supermarket Type1",6.675,"Low Fat",0.041886576,"Snack Foods",92.1462,1987,"High","OUT013",1460.15014469811
+"69","FDX57","Tier 1","Supermarket Type1",17.25,"Regular",0.047266211,"Snack Foods",97.0068,1997,"Small","OUT046",1539.89666353123
+"70","NCX41","Tier 3","Supermarket Type2",19,"Low Fat",0.017791458,"Health and Hygiene",211.9244,2009,"Medium","OUT018",3425.31791865548
+"71","FDV58","Tier 1","Supermarket Type1",20.85,"Low Fat",0.121438886,"Snack Foods",196.1452,1999,"Medium","OUT049",3166.43295178481
+"72","FDV16","Tier 1","Supermarket Type1",7.75,"Regular",0.082930699,"Frozen Foods",35.2558,1997,"Small","OUT046",526.765098608384
+"73","FDV15","Tier 1","Supermarket Type1",10.3,"Low Fat",0.146172453,"Meat",103.3648,1997,"Small","OUT046",1644.21060969857
+"74","NCZ06","Tier 1","Supermarket Type1",19.6,"Low Fat",0.094308058,"Household",251.8698,1999,"Medium","OUT049",4080.69103995666
+"75","NCL41","Tier 1","Supermarket Type1",12.35,"Low Fat",0.041737627,"Health and Hygiene",33.1216,1997,"Small","OUT046",491.74986993422
+"76","FDH26","Tier 1","Supermarket Type1",19.25,"Regular",0.034699737,"Canned",141.7496,1997,"Small","OUT046",2273.97939875867
+"77","FDC33","Tier 2","Supermarket Type1",8.96,"Regular",0.068925304,"Fruits and Vegetables",196.9768,2004,"Small","OUT035",3180.07678280601
+"78","FDT11","Tier 2","Supermarket Type1",5.94,"Regular",0.029366813,"Breads",187.7556,2004,"Small","OUT035",3028.78710674462
+"79","NCN43","Tier 3","Supermarket Type1",12.15,"Low Fat",0.006754117,"Others",122.173,1987,"High","OUT013",1952.79154117145
+"80","FDB04","Tier 3","Supermarket Type1",11.35,"Regular",0.063173691,"Dairy",86.1856,1987,"High","OUT013",1362.35623033431
+"81","NCC07","Tier 1","Supermarket Type1",19.6,"Low Fat",0.023988387,"Household",104.5964,1999,"Medium","OUT049",1664.41713000365
+"82","FDA01","Tier 2","Supermarket Type1",15,"Regular",0.054367971,"Canned",58.5904,2004,"Small","OUT035",909.609422017699
+"83","NCZ53","Tier 3","Supermarket Type2",9.6,"Low Fat",0.024576875,"Health and Hygiene",186.6214,2009,"Medium","OUT018",3010.17860128017
+"84","FDX01","Tier 1","Supermarket Type1",10.1,"Low Fat",0.024201905,"Canned",114.915,1999,"Medium","OUT049",1833.71154411537
+"85","FDL50","Tier 1","Supermarket Type1",12.15,"Regular",0.042378864,"Canned",125.4046,1999,"Medium","OUT049",2005.81150789595
+"86","DRL37","Tier 3","Supermarket Type1",15.5,"Low Fat",0.053327763,"Soft Drinks",44.477,1987,"High","OUT013",678.054774669768
+"87","FDL08","Tier 3","Supermarket Type1",10.8,"Low Fat",0.049677651,"Fruits and Vegetables",245.9144,1987,"High","OUT013",3982.98244055354
+"88","FDB51","Tier 3","Supermarket Type1",6.92,"Low Fat",0.038422076,"Dairy",62.5852,1987,"High","OUT013",975.150999895852
+"89","FDZ13","Tier 3","Supermarket Type2",7.84,"Regular",0.154120252,"Canned",51.935,2009,"Medium","OUT018",800.416116367791
+"90","FDQ24","Tier 3","Supermarket Type2",15.7,"Low Fat",0.073966786,"Baking Goods",250.5724,2009,"Medium","OUT018",4059.40495726438
+"91","FDO31","Tier 3","Supermarket Type1",6.76,"Regular",0.028958563,"Fruits and Vegetables",78.396,1987,"High","OUT013",1234.55441921995
+"92","FDV33","Tier 3","Supermarket Type2",9.6,"Regular",0.027454997,"Snack Foods",258.1304,2009,"Medium","OUT018",4183.40697128337
+"93","DRQ35","Tier 3","Supermarket Type1",9.3,"Low Fat",0.042256257,"Hard Drinks",124.4388,1987,"High","OUT013",1989.96589462001
+"94","FDP21","Tier 3","Supermarket Type2",7.42,"Regular",0.0258457,"Snack Foods",188.9872,2009,"Medium","OUT018",3048.9936270497
+"95","FDO34","Tier 3","Supermarket Type2",17.7,"Low Fat",0.030060895,"Snack Foods",166.4816,2009,"Medium","OUT018",2679.75047718124
+"96","FDM21","Tier 2","Supermarket Type1",20.2,"Low Fat",0.064351908,"Snack Foods",259.4646,2004,"Small","OUT035",4205.29682138977
+"97","FDT45","Tier 3","Supermarket Type2",15.85,"Low Fat",0.057546914,"Snack Foods",55.8956,2009,"Medium","OUT018",865.396584312171
+"98","FDJ12","Tier 3","Supermarket Type1",8.895,"Regular",0.039008625,"Baking Goods",209.0296,1987,"High","OUT013",3377.82373630801
+"99","FDH50","Tier 3","Supermarket Type1",15,"Regular",0.161301097,"Canned",185.1266,1987,"High","OUT013",2985.65383142629
+"100","FDL40","Tier 2","Supermarket Type1",17.7,"Low Fat",0.01161096,"Frozen Foods",95.041,2004,"Small","OUT035",1507.64432704558
+"101","DRN47","Tier 3","Supermarket Type2",12.1,"Low Fat",0.016895293,"Hard Drinks",178.566,2009,"Medium","OUT018",2878.01588313666
+"102","FDL51","Tier 2","Supermarket Type1",20.7,"Regular",0.047482391,"Dairy",215.9876,2004,"Small","OUT035",3491.98171640117
+"103","DRI49","Tier 2","Supermarket Type1",14.15,"Low Fat",0.183472595,"Soft Drinks",82.0276,2004,"Small","OUT035",1294.13707522833
+"104","NCR38","Tier 1","Supermarket Type1",17.25,"Low Fat",0.113694957,"Household",253.4724,1999,"Medium","OUT049",4106.98445457254
+"105","FDW57","Tier 1","Supermarket Type1",8.31,"Regular",0.115857223,"Snack Foods",179.1028,1999,"Medium","OUT049",2886.82301215564
+"106","FDC57","Tier 3","Supermarket Type1",20.1,"Regular",0.054549098,"Fruits and Vegetables",193.782,1987,"High","OUT013",3127.66058349562
+"107","FDA19","Tier 1","Supermarket Type1",7.52,"Low Fat",0.055213208,"Fruits and Vegetables",129.5994,1999,"Medium","OUT049",2074.63443041605
+"108","DRN35","Tier 3","Supermarket Type2",8.01,"Low Fat",0.070533748,"Hard Drinks",34.2532,2009,"Medium","OUT018",510.315717918328
+"109","FDA38","Tier 1","Supermarket Type1",5.44,"Low Fat",0.025519534,"Dairy",238.7538,1999,"Medium","OUT049",3865.50045833809
+"110","FDR21","Tier 2","Supermarket Type1",19.7,"Low Fat",0.066922802,"Snack Foods",174.837,2004,"Small","OUT035",2816.83521228765
+"111","FDP60","Tier 1","Supermarket Type1",17.35,"Low Fat",0.056005781,"Baking Goods",99.2016,1999,"Medium","OUT049",1575.9061396319
+"112","DRF23","Tier 2","Supermarket Type1",4.61,"Low Fat",0.122629121,"Hard Drinks",175.4396,2004,"Small","OUT035",2826.72190369383
+"113","FDU11","Tier 3","Supermarket Type1",4.785,"Low Fat",0.092516598,"Breads",120.1098,1987,"High","OUT013",1918.94118984517
+"114","DRD27","Tier 1","Supermarket Type1",18.75,"Low Fat",0.023876985,"Dairy",97.4042,1999,"Medium","OUT049",1546.41669533477
+"115","NCB43","Tier 2","Supermarket Type1",20.2,"Low Fat",0.099893424,"Household",187.6898,2004,"Small","OUT035",3027.70754435742
+"116","FDL50","Tier 3","Supermarket Type2",12.15,"Regular",0.042485444,"Canned",125.0046,2009,"Medium","OUT018",1999.24881861207
+"117","FDC37","Tier 1","Supermarket Type1",15.5,"Low Fat",0.032924463,"Baking Goods",107.2938,1999,"Medium","OUT049",1708.67262518952
+"118","FDU34","Tier 2","Supermarket Type1",18.25,"Low Fat",0.07518071,"Snack Foods",126.2046,2004,"Small","OUT035",2018.93688646372
+"119","NCO41","Tier 2","Supermarket Type1",12.5,"Low Fat",0.018845298,"Health and Hygiene",96.7384,2004,"Small","OUT035",1535.49309902174
+"120","NCC43","Tier 3","Supermarket Type1",7.39,"Low Fat",0.092705683,"Household",251.9066,1987,"High","OUT013",4081.29480737077
+"121","DRI37","Tier 3","Supermarket Type2",15.85,"Low Fat",0.108036187,"Soft Drinks",57.3904,2009,"Medium","OUT018",889.921354166047
+"122","FDT51","Tier 3","Supermarket Type2",11.65,"Regular",0.010963269,"Meat",110.9544,2009,"Medium","OUT018",1768.73107617099
+"123","FDH20","Tier 2","Supermarket Type1",16.1,"Regular",0.024944396,"Fruits and Vegetables",95.441,2004,"Small","OUT035",1514.20701632946
+"124","FDT56","Tier 3","Supermarket Type2",16,"Regular",0.116063284,"Fruits and Vegetables",59.1246,2009,"Medium","OUT018",918.373893556327
+"125","FDR32","Tier 3","Supermarket Type1",6.78,"Regular",0.08573655,"Fruits and Vegetables",229.5694,1987,"High","OUT013",3714.81454969082
+"126","FDA15","Tier 2","Supermarket Type1",9.3,"Low Fat",0.01601936,"Dairy",248.5092,2004,"Small","OUT035",4025.5546059381
+"127","FDB04","Tier 2","Supermarket Type1",11.35,"Regular",0.06321435,"Dairy",88.3856,2004,"Small","OUT035",1398.45102139567
+"128","FDE56","Tier 2","Supermarket Type1",17.25,"Regular",0.159165324,"Fruits and Vegetables",63.4194,2004,"Small","OUT035",988.837488397392
+"129","FDH10","Tier 1","Supermarket Type1",21,"Low Fat",0.049381666,"Snack Foods",193.0478,1999,"Medium","OUT049",3115.61476731505
+"130","FDQ32","Tier 3","Supermarket Type2",17.85,"Regular",0.04679836,"Fruits and Vegetables",123.8388,2009,"Medium","OUT018",1980.12186069419
+"131","NCI31","Tier 2","Supermarket Type1",20,"Low Fat",0.08131178,"Others",37.819,2004,"Small","OUT035",568.818811539515
+"132","FDM21","Tier 1","Supermarket Type1",20.2,"Low Fat",0.064464147,"Snack Foods",255.7646,1999,"Medium","OUT049",4144.59194551384
+"133","FDB51","Tier 1","Supermarket Type1",6.92,"Low Fat",0.038454076,"Dairy",61.5852,1997,"Small","OUT046",958.744276686141
+"134","FDE47","Tier 3","Supermarket Type1",14.15,"Low Fat",0.037877202,"Starchy Foods",124.0046,1987,"High","OUT013",1982.84209540236
+"135","DRM11","Tier 1","Supermarket Type1",6.57,"Low Fat",0.066069578,"Hard Drinks",261.0278,1997,"Small","OUT046",4230.94381111119
+"136","FDW16","Tier 1","Supermarket Type1",17.35,"Regular",0.041538713,"Frozen Foods",93.1804,1999,"Medium","OUT049",1477.11797784159
+"137","FDD47","Tier 1","Supermarket Type1",7.6,"Regular",0.142632186,"Starchy Foods",172.3448,1999,"Medium","OUT049",2775.94637670441
+"138","FDG16","Tier 3","Supermarket Type1",15.25,"Low Fat",0.089742065,"Frozen Foods",213.7192,1987,"High","OUT013",3454.76470547227
+"139","FDM15","Tier 1","Supermarket Type1",11.8,"Regular",0.057421582,"Meat",149.9366,1997,"Small","OUT046",2408.30124167657
+"140","NCJ30","Tier 3","Supermarket Type2",5.82,"Low Fat",0.080968973,"Household",171.379,2009,"Medium","OUT018",2760.10076342847
+"141","DRJ11","Tier 1","Supermarket Type1",9.5,"Low Fat",0.085223447,"Hard Drinks",189.2872,1999,"Medium","OUT049",3053.91564401262
+"142","FDD44","Tier 1","Supermarket Type1",8.05,"Regular",0.078400465,"Fruits and Vegetables",259.0646,1997,"Small","OUT046",4198.73413210588
+"143","FDQ40","Tier 3","Supermarket Type1",11.1,"Regular",0.035997543,"Frozen Foods",176.9712,1987,"High","OUT013",2851.85044096182
+"144","FDR01","Tier 3","Supermarket Type1",5.405,"Regular",0.053576661,"Canned",200.5742,1987,"High","OUT013",3239.09832888062
+"145","FDM09","Tier 3","Supermarket Type2",11.15,"Regular",0.086281593,"Snack Foods",170.579,2009,"Medium","OUT018",2746.97538486071
+"146","FDO09","Tier 3","Supermarket Type1",13.5,"Regular",0.125170423,"Snack Foods",261.491,1987,"High","OUT013",4238.54340530192
+"147","FDQ04","Tier 1","Supermarket Type1",6.4,"Low Fat",0.084885375,"Frozen Foods",39.2796,1999,"Medium","OUT049",592.782471459618
+"148","FDU16","Tier 1","Supermarket Type1",19.25,"Regular",0.058365706,"Frozen Foods",82.1908,1999,"Medium","OUT049",1296.81465245616
+"149","NCO26","Tier 1","Supermarket Type1",7.235,"Low Fat",0.076855628,"Household",116.0492,1997,"Small","OUT046",1852.32004957982
+"150","FDU59","Tier 1","Supermarket Type1",5.78,"Low Fat",0.096536082,"Breads",162.8552,1999,"Medium","OUT049",2620.25313613354
+"151","DRO35","Tier 1","Supermarket Type1",13.85,"Low Fat",0.034624104,"Hard Drinks",115.0492,1999,"Medium","OUT049",1835.91332637011
+"152","FDH53","Tier 1","Supermarket Type1",20.5,"Regular",0.019199733,"Frozen Foods",84.3592,1997,"Small","OUT046",1332.39099106409
+"153","FDU25","Tier 1","Supermarket Type1",12.35,"Low Fat",0.026722744,"Canned",59.2246,1999,"Medium","OUT049",920.014565877298
+"154","FDV09","Tier 3","Supermarket Type2",12.1,"Low Fat",0.020652362,"Snack Foods",149.5734,2009,"Medium","OUT018",2402.34231980681
+"155","FDE33","Tier 3","Supermarket Type1",19.35,"Regular",0.049594299,"Fruits and Vegetables",77.0644,1987,"High","OUT013",1212.70722659389
+"156","DRE27","Tier 2","Supermarket Type1",11.85,"Low Fat",0.132645493,"Dairy",96.9726,2004,"Small","OUT035",1539.33555359746
+"157","FDT09","Tier 1","Supermarket Type1",15.15,"Regular",0.012282366,"Snack Foods",132.5284,1999,"Medium","OUT049",2122.68972269729
+"158","FDD56","Tier 1","Supermarket Type1",15.2,"Regular",0.10377827,"Fruits and Vegetables",175.6054,1997,"Small","OUT046",2829.442138402
+"159","FDY57","Tier 3","Supermarket Type2",20.2,"Regular",0.121748174,"Snack Foods",96.9752,2009,"Medium","OUT018",1539.3782110778
+"160","FDL04","Tier 3","Supermarket Type1",19,"Low Fat",0.111830282,"Frozen Foods",105.4622,1987,"High","OUT013",1678.62207095862
+"161","NCY17","Tier 2","Supermarket Type1",18.2,"Low Fat",0.1630653,"Health and Hygiene",43.3086,2004,"Small","OUT035",658.885159271543
+"162","FDG31","Tier 2","Supermarket Type1",12.15,"Low Fat",0.037889224,"Meat",64.7826,2004,"Small","OUT035",1011.20313347687
+"163","FDV08","Tier 3","Supermarket Type1",7.35,"Low Fat",0.028571132,"Fruits and Vegetables",40.8454,1987,"High","OUT013",618.472118661383
+"164","FDD57","Tier 1","Supermarket Type1",18.1,"Low Fat",0.022434418,"Fruits and Vegetables",96.2094,1999,"Medium","OUT049",1526.81394244381
+"165","FDF05","Tier 2","Supermarket Type1",17.5,"Low Fat",0.026865809,"Frozen Foods",261.691,2004,"Small","OUT035",4241.82474994386
+"166","FDS14","Tier 2","Supermarket Type1",7.285,"Low Fat",0.049954435,"Dairy",156.5288,2004,"Small","OUT035",2516.45764241963
+"167","FDS58","Tier 2","Supermarket Type1",9.285,"Regular",0.021002641,"Snack Foods",161.1578,2004,"Small","OUT035",2592.40436415738
+"168","FDJ55","Tier 1","Supermarket Type1",12.8,"Regular",0.023567538,"Meat",226.8404,1999,"Medium","OUT049",3670.04060205152
+"169","FDY59","Tier 1","Supermarket Type1",8.195,"Low Fat",0.031452265,"Baking Goods",94.3462,1999,"Medium","OUT049",1496.24493575947
+"170","DRJ59","Tier 1","Supermarket Type1",11.65,"Low Fat",0.019402371,"Hard Drinks",38.7164,1999,"Medium","OUT049",583.542204947909
+"171","FDO11","Tier 1","Supermarket Type1",8,"Regular",0.030311951,"Breads",247.4092,1999,"Medium","OUT049",4007.50721040742
+"172","FDT31","Tier 1","Supermarket Type1",19.75,"Low Fat",0.012448294,"Fruits and Vegetables",188.2872,1997,"Small","OUT046",3037.5089208029
+"173","FDZ57","Tier 2","Supermarket Type1",10,"Regular",0.037757166,"Snack Foods",126.7994,2004,"Small","OUT035",2028.69560542886
+"174","NCN06","Tier 1","Supermarket Type1",8.39,"Low Fat",0.120497266,"Household",162.2868,1997,"Small","OUT046",2610.92755466114
+"175","DRG01","Tier 1","Supermarket Type1",14.8,"Low Fat",0.04487828,"Soft Drinks",75.467,1997,"Small","OUT046",1186.4991269387
+"176","DRJ37","Tier 1","Supermarket Type1",10.8,"Low Fat",0.061101383,"Soft Drinks",151.9024,1997,"Small","OUT046",2440.55357816222
+"177","FDS27","Tier 2","Supermarket Type1",10.195,"Regular",0.012455787,"Meat",197.511,2004,"Small","OUT035",3188.84125434463
+"178","NCV18","Tier 2","Supermarket Type1",6.775,"Low Fat",0.105225964,"Household",84.225,2004,"Small","OUT035",1330.18920880935
+"179","DRF60","Tier 1","Supermarket Type1",10.8,"Low Fat",0.052149675,"Soft Drinks",239.9564,1999,"Medium","OUT049",3885.23118367009
+"180","NCA06","Tier 3","Supermarket Type1",20.5,"Low Fat",0.143164371,"Household",34.919,1987,"High","OUT013",521.239314231354
+"181","FDT16","Tier 3","Supermarket Type2",9.895,"Regular",0.048860587,"Frozen Foods",260.2278,2009,"Medium","OUT018",4217.81843254342
+"182","FDW27","Tier 1","Supermarket Type1",5.86,"Regular",0.151087845,"Meat",155.1314,1999,"Medium","OUT049",2493.53088740638
+"183","FDS28","Tier 3","Supermarket Type2",8.18,"Regular",0.082737261,"Frozen Foods",57.3588,2009,"Medium","OUT018",889.40290171262
+"184","DRI25","Tier 1","Supermarket Type1",19.6,"Low Fat",0.033901442,"Soft Drinks",56.2614,1997,"Small","OUT046",871.398163662283
+"185","FDU36","Tier 3","Supermarket Type2",6.15,"Low Fat",0.046459438,"Baking Goods",100.5384,2009,"Medium","OUT018",1597.83864721864
+"186","FDR56","Tier 3","Supermarket Type2",15.5,"Regular",0.101176316,"Fruits and Vegetables",198.9768,2009,"Medium","OUT018",3212.89022922543
+"187","NCU17","Tier 2","Supermarket Type1",5.32,"Low Fat",0.092865746,"Health and Hygiene",100.6674,2004,"Small","OUT035",1599.9551145127
+"188","FDS08","Tier 1","Supermarket Type1",5.735,"Low Fat",0.05696122,"Fruits and Vegetables",176.337,1997,"Small","OUT046",2841.44529710222
+"189","FDR04","Tier 1","Supermarket Type1",7.075,"Low Fat",0.022602061,"Frozen Foods",98.1068,1999,"Medium","OUT049",1557.94405906191
+"190","FDF50","Tier 2","Supermarket Type1",4.905,"Low Fat",0.117308165,"Canned",195.7768,2004,"Small","OUT035",3160.38871495435
+"191","FDT19","Tier 3","Supermarket Type1",7.59,"Regular",0.14492016,"Fruits and Vegetables",174.708,1987,"High","OUT013",2814.7187449936
+"192","FDG09","Tier 1","Supermarket Type1",20.6,"Regular",0.047936284,"Fruits and Vegetables",185.7556,1997,"Small","OUT046",2995.9736603252
+"193","FDN56","Tier 3","Supermarket Type1",5.46,"Regular",0.106968096,"Fruits and Vegetables",142.6786,1987,"High","OUT013",2289.22124462049
+"194","FDQ56","Tier 2","Supermarket Type1",6.59,"Low Fat",0.105577348,"Fruits and Vegetables",85.6908,2004,"Small","OUT035",1354.23818369014
+"195","FDB44","Tier 3","Supermarket Type1",6.655,"Low Fat",0.016944719,"Fruits and Vegetables",209.2586,1987,"High","OUT013",3381.58087592303
+"196","FDE32","Tier 2","Supermarket Type1",20.7,"Low Fat",0.04874969,"Fruits and Vegetables",37.5506,2004,"Small","OUT035",564.415247030028
+"197","FDC26","Tier 2","Supermarket Type1",10.195,"Low Fat",0.126359196,"Canned",109.2886,2004,"Small","OUT035",1741.40075664825
+"198","FDQ34","Tier 3","Supermarket Type1",10.85,"Low Fat",0.162107603,"Snack Foods",106.3622,1987,"High","OUT013",1693.38812184736
+"199","FDA39","Tier 1","Supermarket Type1",6.32,"Low Fat",0.012737719,"Meat",38.5822,1999,"Medium","OUT049",581.340422693166
+"200","FDV16","Tier 1","Supermarket Type1",7.75,"Regular",0.083059634,"Frozen Foods",35.7558,1999,"Medium","OUT049",534.96846021324
+"201","FDS11","Tier 1","Supermarket Type1",7.05,"Regular",0.055558509,"Breads",224.7088,1997,"Small","OUT046",3635.0680308577
+"202","NCS17","Tier 3","Supermarket Type2",18.6,"Low Fat",0.080829372,"Health and Hygiene",96.4436,2009,"Medium","OUT018",1530.65639701952
+"203","FDP03","Tier 3","Supermarket Type1",5.15,"Regular",0.06112617,"Meat",122.5388,1987,"High","OUT013",1958.79312052156
+"204","NCN17","Tier 1","Supermarket Type1",11,"Low Fat",0.054939029,"Health and Hygiene",101.4358,1997,"Small","OUT046",1612.56204062704
+"205","NCY30","Tier 1","Supermarket Type1",20.25,"Low Fat",0.025953257,"Household",179.5976,1997,"Small","OUT046",2894.9410587998
+"206","DRL37","Tier 2","Supermarket Type1",15.5,"Low Fat",0.053362086,"Soft Drinks",41.577,2004,"Small","OUT035",630.475277361607
+"207","FDA34","Tier 3","Supermarket Type2",11.5,"Low Fat",0.014921093,"Starchy Foods",173.908,2009,"Medium","OUT018",2801.59336642583
+"208","DRB48","Tier 1","Supermarket Type1",16.75,"Regular",0.024892129,"Soft Drinks",37.8822,1999,"Medium","OUT049",569.855716446368
+"209","FDT02","Tier 3","Supermarket Type2",12.6,"Low Fat",0.02429329,"Dairy",33.4874,2009,"Medium","OUT018",497.751449284332
+"210","NCJ19","Tier 3","Supermarket Type2",18.6,"Low Fat",0.118661426,"Others",58.7588,2009,"Medium","OUT018",912.372314206215
+"211","FDV09","Tier 3","Supermarket Type1",12.1,"Low Fat",0.020551458,"Snack Foods",146.6734,1987,"High","OUT013",2354.76282249865
+"212","FDJ26","Tier 3","Supermarket Type2",15.3,"Regular",0.08511049,"Canned",215.7218,2009,"Medium","OUT018",3487.62080937203
+"213","NCL31","Tier 1","Supermarket Type1",7.39,"Low Fat",0.120467994,"Others",145.147,1999,"Medium","OUT049",2329.71960019134
+"214","FDP37","Tier 3","Supermarket Type1",15.6,"Low Fat",0.142986863,"Breakfast",130.3994,1987,"High","OUT013",2087.75980898381
+"215","NCP55","Tier 3","Supermarket Type1",14.65,"Low Fat",0.011180713,"Others",53.8614,1987,"High","OUT013",832.022027958978
+"216","FDR08","Tier 2","Supermarket Type1",18.7,"Low Fat",0.03761584,"Fruits and Vegetables",109.1886,2004,"Small","OUT035",1739.76008432728
+"217","DRL35","Tier 3","Supermarket Type1",15.7,"Low Fat",0.03067808,"Hard Drinks",44.777,1987,"High","OUT013",682.976791632682
+"218","FDJ46","Tier 1","Supermarket Type1",11.1,"Low Fat",0.044823438,"Snack Foods",174.2054,1997,"Small","OUT046",2806.4727259084
