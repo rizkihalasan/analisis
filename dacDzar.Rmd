@@ -1,0 +1,205 @@
+```{r}
+
+bigmart_train <- read.csv('Data_Train.csv', sep = ';')
+str(bigmart_train)
+names(bigmart_train)
+summary(bigmart_train)
+bigmart_train
+duplicated(bigmart_train$Product_ID)
+
+```
+## (SOAL 1) sales characteristics 
+```{r}
+table(bigmart_train$Product_Type)
+table(bigmart_train$Outlet_ID)
+by(bigmart_train$Product_Type, bigmart_train$Outlet_ID, summary)
+sorted_data = bigmart_train[order(bigmart_train[,12], bigmart_train[,7]),]
+summary(bigmart_train$Outlet_ID)
+sorted_data_1 = split(sorted_data, sorted_data$Outlet_ID)
+out013 = sorted_data_1$OUT013
+out018 = sorted_data_1$OUT018
+out035 = sorted_data_1$OUT035
+out046 = sorted_data_1$OUT046
+out049 = sorted_data_1$OUT049
+
+aggregate(out013$Product_Outlet_Sales, by=list(Category=out013$Product_Type), FUN = sum)
+aggregate(out018$Product_Outlet_Sales, by=list(Category=out018$Product_Type), FUN = sum)
+aggregate(out035$Product_Outlet_Sales, by=list(Category=out035$Product_Type), FUN = sum)
+aggregate(out046$Product_Outlet_Sales, by=list(Category=out046$Product_Type), FUN = sum)
+aggregate(out049$Product_Outlet_Sales, by=list(Category=out049$Product_Type), FUN = sum)
+
+```
+
+## (SOAL 2) Percentage of total display area by each store for each product type
+```{r}
+aggregate(out013$Product_Visibility, by=list(Category=out013$Product_Type), FUN=sum)
+aggregate(out018$Product_Visibility, by=list(Category=out018$Product_Type), FUN=sum)
+aggregate(out035$Product_Visibility, by=list(Category=out035$Product_Type), FUN=sum)
+aggregate(out046$Product_Visibility, by=list(Category=out046$Product_Type), FUN=sum)
+aggregate(out049$Product_Visibility, by=list(Category=out049$Product_Type), FUN=sum)
+```
+
+## (SOAL 3) Relationship between the percentages
+```{r}
+library(ggplot2)
+productSeafood = bigmart_train$Product_Type == "Seafood"
+seafoodSelected = bigmart_train[productSeafood, c("Product_Visibility", "Product_Outlet_Sales")]
+seafoodSelected
+
+lm(seafoodSelected$Product_Visibility ~ seafoodSelected$Product_Outlet_Sales)
+
+ggplot(seafoodSelected, aes(x =Product_Visibility, y = Product_Outlet_Sales))+
+  geom_point()+
+  geom_smooth(method = 'lm', formula = y~x)
+
+
+summary(bigmart_train$Product_Visibility)
+ggplot(bigmart_train, aes(x=Product_Visibility, y=Product_Outlet_Sales))+
+  geom_point()+
+  facet_wrap(~Product_Type)+
+  geom_smooth(method = 'lm', formula = y~x)
+list_type = unique(bigmart_train[c("Product_Type")])$Product_Type
+list_type
+#tes <- subset(bigmart_train ,Product_Type == list_type[])
+#tes
+for(i in 1:16){
+  tes <- subset(bigmart_train ,Product_Type == list_type[i])
+    print(cor(tes$Product_Visibility, tes$Product_Outlet_Sales, method="kendall"))
+  print(list_type[i])
+}
+```
+
+## (SOAL 4) Mean of sales outcome for each store age category
+```{r}
+
+```
+
+
+
+## (SOAL 5) Characteristics of Low Fat and Regular product sales for each store.
+```{r}
+regularSales = bigmart_train[bigmart_train$Product_Fat_Content == "Regular",c("Outlet_ID", "Product_Outlet_Sales", "Product_Fat_Content")]
+
+bigmart_train
+
+lowFatSales= bigmart_train[bigmart_train$Product_Fat_Content == "Low Fat",c("Outlet_ID", "Product_Outlet_Sales", "Product_Type")]
+
+regularSales
+
+aggregate(Product_Outlet_Sales ~ Outlet_ID, regularSales, mean)
+aggregate(Product_Outlet_Sales ~ Outlet_ID, lowFatSales, mean)
+
+ggplot(regularSales, aes(x = Outlet_ID, y = Product_Outlet_Sales))+
+  geom_col(width = 0.5)
+
+ggplot(lowFatSales, aes(x = Outlet_ID, y=Product_Outlet_Sales))+
+  geom_col(width = 0.5)
+
+```
+
+
+
+##Soal 7, linear regression
+
+
+```{r}
+summary(bigmart_train)
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Outlet_Location_Type))
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Outlet_Type))
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Product_Type))
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Outlet_Location_Type))
+cor(bigmart_train$Product_Outlet_Sales, bigmart_train$Product_Visibility)
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Product_Fat_Content))
+cor(bigmart_train$Product_Outlet_Sales, bigmart_train$Product_Weight)
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Outlet_Size))
+cor(bigmart_train$Product_Outlet_Sales, as.numeric(bigmart_train$Outlet_ID))
+
+library(e1071)
+par(mfrow=c(1, 2))  # divide graph area in 2 columns
+plot(density(bigmart_train$Product_Outlet_Sales), main="Density Plot: Product Outlet Sales", ylab="Frequency", sub=paste("Skewness:", round(e1071::skewness(bigmart_train$Product_Outlet_Sales), 2)))  # density plot for 'speed'
+polygon(density(bigmart_train$Product_Outlet_Sales), col="red")
+
+plot(density(bigmart_train$Product_Visibility), main="Density Plot: Visibility", ylab="Frequency", sub=paste("Skewness:", round(e1071::skewness(bigmart_train$Product_Visibility), 2)))  # density plot for 'dist'
+polygon(density(bigmart_train$Product_Visibility), col="red")
+
+print (as.numeric(bigmart_train$Product_Fat_Content))
+
+plot(density(as.numeric(bigmart_train$Product_Fat_Content)), main="Density Plot: Visibility", ylab="Frequency", sub=paste("Skewness:", round(e1071::skewness(as.numeric(bigmart_train$Product_Fat_Content)), 2)))  # density plot for 'dist'
+polygon(density(as.numeric(bigmart_train$Product_Visibility)), col="red")
+
+plot(density(bigmart_train$Product_Weight), main="Density Plot: Product_Weight", ylab="Frequency", sub=paste("Skewness:", round(e1071::skewness(bigmart_train$Product_Weight), 2)))  # density plot for 'dist'
+polygon(density(bigmart_train$Product_Weight), col="red")
+
+
+plot(density(as.numeric(bigmart_train$Product_ID)), main="Density Plot: productID", ylab="Frequency", sub=paste("Skewness:", round(e1071::skewness(as.numeric(bigmart_train$Product_ID)), 2)))  # density plot for 'dist'
+polygon(density(as.numeric(bigmart_train$Product_ID)), col="red")
+
+
+
+#plot(density(as.numeric(bigmart_train$Product)), main="Density Plot: #Visibility", ylab="Frequency", sub=paste("Skewness:", #round(e1071::skewness(as.numeric(bigmart_train$Product_Weight)), 2)))  # #density plot for 'dist'
+#polygon(density(as.numeric(bigmart_train$Product_Weight)), col="red")
+```
+
+```{r}
+normalizedVisib <- (bigmart_train$Product_Visibility - mean(bigmart_train$Product_Visibility)) / sd(bigmart_train$Product_Visibility)
+summary(normalizedVisib)
+
+hist(normalizedVisib)
+
+normalizedSales <- (bigmart_train$Product_Outlet_Sales - mean(bigmart_train$Product_Outlet_Sales)) / sd(bigmart_train$Product_Outlet_Sales)
+hist(normalizedSales)
+
+cor (bigmart_train$Product_Outlet_Sales, sqrt(bigmart_train$Product_Visibility))
+
+summary(bigmart_train$Outlet_Location_Type)
+
+cor(sqrt(bigmart_train$Product_Outlet_Sales), as.numeric(bigmart_train$Outlet_Location_Type))
+
+linearModel <- lm(normalizedSales ~ bigmart_train$Outlet_Location_Type, data=bigmart_train)
+print (linearModel)
+
+
+ggplot(bigmart_train, aes(x = Outlet_Location_Type, y = Product_Outlet_Sales))+
+  geom_point()+
+  geom_smooth(method = 'lm', formula = y~x)
+
+
+ggplot(data=bigmart_train, aes(bigmart_train$Product_Outlet_Sales)) + geom_histogram()
+ggplot(data=bigmart_train, aes(bigmart_train$Product_MRP)) + geom_histogram()
+
+cor(bigmart_train$Product_Outlet_Sales, bigmart_train$Product_MRP)
+
+ggplot(bigmart_train, aes(x = bigmart_train$Product_MRP, y = bigmart_train$Product_Outlet_Sales))+
+  geom_point()+
+  geom_smooth(method = 'lm', formula = y~x) +
+  xlab("Product MRP") +
+  ylab("Sales")
+
+no7model = lm(Product_Outlet_Sales ~ Product_MRP, data = bigmart_train)
+
+t.test(bigmart_train$Product_Outlet_Sales, bigmart_train$Product_MRP)
+
+help(summary.lm)
+
+no7model
+
+ggplot(data=bigmart_train, aes(bigmart_train$Product_MRP)) + geom_histogram()
+
+summary(bigmart_train$Product_MRP)
+
+predictResult = predict(no7model, newdata = bigmart_train)
+
+predictResult
+
+hist(predictResult)
+summary(predictResult)
+hist(bigmart_train$Product_Outlet_Sales)
+summary(bigmart_train$Product_Outlet_Sales)
+
+
+
+error = predictResult - bigmart_train$Product_Outlet_Sales
+sqrt(mean(error*error))
+```
+
+
