@@ -63,14 +63,19 @@ list_type
 #tes
 for(i in 1:16){
   tes <- subset(bigmart_train ,Product_Type == list_type[i])
-    print(cor(tes$Product_Visibility, tes$Product_Outlet_Sales, method="kendall"))
+  print(cor(tes$Product_Visibility, tes$Product_Outlet_Sales, method="kendall"))
   print(list_type[i])
 }
 ```
 
 ## (SOAL 4) Mean of sales outcome for each store age category
 ```{r}
-
+list_age = unique(bigmart_train[c("Outlet_Establishment")])$Outlet_Establishment
+list_age
+for(i in 1:5){
+  data_by_date <- subset(bigmart_train, Outlet_Establishment=list_age[i])
+  print(aggregate(data_by_date$Product_Outlet_Sales, by=list(Category=data_by_date$Outlet_Establishment), FUN=mean))
+}
 ```
 
 
@@ -94,4 +99,35 @@ ggplot(lowFatSales, aes(x = Outlet_ID, y=Product_Outlet_Sales))+
   geom_col(width = 0.5)
 
 ```
+
+## (SOAL 6) Is there a difference between the sales for each type of store location?
+```{r}
+aggregate(Product_Outlet_Sales ~ Outlet_Location_Type, bigmart_train, sum)
+aggregate(Product_Outlet_Sales ~ Outlet_Location_Type, bigmart_train, mean)
+aggregate(Product_Outlet_Sales ~ Outlet_Location_Type, bigmart_train, sum)/aggregate(Product_Outlet_Sales ~ Outlet_Location_Type, bigmart_train, mean)
+tier_1 = bigmart_train[bigmart_train$Outlet_Location_Type == "Tier 1", c("Product_Outlet_Sales")]
+tier_2 = bigmart_train[bigmart_train$Outlet_Location_Type == "Tier 2", c("Product_Outlet_Sales")]
+tier_3 = bigmart_train[bigmart_train$Outlet_Location_Type == "Tier 3", c("Product_Outlet_Sales")]
+
+dati = c(tier_1, tier_2, tier_3)
+length(tier_1)
+length(tier_2)
+length(tier_3)
+x <- c()
+for(i in 1:length(tier_1))
+{
+  x <- append(x, 'a')  
+}
+for(i in 1:length(tier_2))
+{
+  x <- append(x, 'b')
+}
+for(i in 1:length(tier_3))
+{
+  x <- append(x, 'c')
+}
+x
+anova(lm(formula=dati ~ x))
+```
+
 
